@@ -1,0 +1,44 @@
+Area of Circle
+#import math -math is a package I want import in my program....
+#after writing this sentences i am able to access all methods available in math
+import math
+r=5
+area=math.pi*r*r
+print(area)
+
+Output:
+78.53981633974483
+   
+#another method
+from math import pi
+r=5
+area=math.pi*r*r     #calculating area of circle by using pi*r*r
+print(area)   
+
+Output:
+78.53981633974483
+
+#another method
+from math import pi
+r=int(input('Enter radious'))      #accepting radious from user
+area=math.pi*r*r
+print(area)
+
+#another method
+from math import pi
+r=int(input('Enter radious'))      #accepting radious from user
+area=math.pi*r*r
+print(area)
+
+Output:
+Enter radious 5
+78.53981633974483
+
+#another method
+from math import pi
+r=int(input('Enter radious'))      #accepting radious from user
+area=math.pi*r*r
+print("Area of circle=",area)
+Enter radious 5
+Output:
+Area of circle= 78.53981633974483
